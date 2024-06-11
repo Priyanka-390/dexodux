@@ -1,3 +1,9 @@
+import theresaWebb from "../../assets/images/webp/theresaWebb.webp"
+import jeromeBell from "../../assets/images/webp/jeromeBell.webp"
+import robertFox from "../../assets/images/webp/robertFox.webp"
+import jennyWilson from "../../assets/images/webp/jennyWilson.webp"
+import bessiCooper from "../../assets/images/webp/bessieCooper.webp"
+import ralphEdward from "../../assets/images/webp/RalphEdwards.webp"
 import { Avax, Bnb, BtcUsd, DogeUsd, EthUsd, GreenGraph, Link, PinkGraph } from "./Icons";
 
 export const LeverageCardsData = [
@@ -55,4 +61,43 @@ export const LeverageCardsData = [
     chg: "-4.48%",
     vol: "$78.07M",
   },
+];
+export const TeamData = [
+  {
+    profile: theresaWebb,
+    name: "Theresa Webb",
+    post: "CEO",
+  },
+  {
+    profile: jeromeBell,
+    name: "Jerome Bell",
+    post: "Co-Founder",
+  },
+  {
+    profile: robertFox,
+    name: "Robert Fox ",
+    post: "Management",
+  },
+  {
+    profile: jennyWilson,
+    name: "Jenny Wilson ",
+    post: "Chief Operating Officer",
+  },
+  {
+    profile: bessiCooper,
+    name: "Bessie Cooper ",
+    post: "Director, Strategic",
+  },
+  {
+    profile: ralphEdward,
+    name: "Ralph Edwards ",
+    post: "Account Executive",
+  },
+];
+export const FooterLinkData = [
+  { link: "Home", to: "#home" },
+  { link: "Top-features", to: "#feature" },
+  { link: "Roadmap", to: "#roadmap" },
+  { link: "Tokenomics", to: "#tokenomics" },
+  { link: "FAQ", to: "#faq" },
 ];

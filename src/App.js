@@ -1,11 +1,15 @@
 
 import './App.css';
-import LeverageTrading from './components/LeverageTrading';
+import Footer from './components/Footer';
+import Leverage from './components/Leverage';
+import Team from './components/Team';
 
 function App() {
   return (
     <>
-     <LeverageTrading/>
+      <Leverage/>
+      <Team />
+      <Footer/>
     </>
   );
 }
