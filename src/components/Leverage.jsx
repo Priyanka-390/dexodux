@@ -7,7 +7,7 @@ const Leverage = () => {
   return (
     <div className="lg:pt-32 md:pt-20 z-30 relative  pt-12 bg-cover bg-center overflow-x-clip bg-darkBlack bg-[url(./assets/images/webp/bgLeverage.webp)]">
       <div className="w-[285px] md:block hidden h-[285px] bg-darkPink blur-[150px] z-0 rounded-full absolute bottom-[-20%] right-[-20%]"></div>
-      <div className="container xl:pt-3 max-w-[1164px] ld:px-3 px-6 mx-auto relative z-20">
+      <div className="container xl:pt-3 max-w-[1164px] lg:px-3 px-6 mx-auto relative z-20">
         <CommonHeading text="Leverage Trading" />
         <CommomPara text="Amplify your potential profits by taking larger market positions with smaller capital investments on over 20 different markets." />
         <div className="flex flex-wrap flex-row -mx-3">

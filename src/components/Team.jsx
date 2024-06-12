@@ -38,7 +38,7 @@ const Team = () => {
                   <img
                     src={obj.profile}
                     alt="1"
-                    className="lg:w-[100px] w-[80px] h-[80px] lg:h-[100px]"
+                    className="lg:max-w-[100px] max-w-[80px] max-h-[80px] lg:max-h-[100px]"
                   />
                   <div>
                     <p className=" font-syne font-medium sm:text-2xl text-xl !leading-sm mb-[6px] text-white">
