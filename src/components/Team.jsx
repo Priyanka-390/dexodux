@@ -16,7 +16,7 @@ const Team = () => {
       <div className="bg-lightPurple lg:w-[285px] w-[150px] h-[150px] lg:h-[285px] rounded-full z-[-1] absolute left-[-18%] top-0 lg:top-[28%] blur-[150px]"></div>
       <div className="container xl:py-3 max-w-[1164px] lg:px-3 px-6 mx-auto">
         <div className="flex justify-center mb-[10px]">
-          <span className="border-darkPink rounded-[150px] inline-block border px-5 py-[6px]">
+          <span className="border-darkPink rounded-[150px] bg-blurPink inline-block border px-5 py-[6px]">
             <p className="text-base font-syne text-white font-normal leading-[22.4px]">
               Team
             </p>
@@ -33,7 +33,7 @@ const Team = () => {
               key={i}
               className="lg:w-1/3 sm:w-1/2 w-full flex justify-center lg:pb-6 pb-4  lg:px-3 px-2"
             >
-              <div className=" xl:p-[30px_0_30px_30.5px] hover:border-darkPink duration-300 sm:p-[25px_0_25px_20px] p-5 lg:max-w-[364px] w-full rounded-[10px] bg-greygradient border border-greyBorder">
+              <div className=" xl:p-[30px_0_30px_30.5px] hover:border-darkPink backdrop-blur-[304px] duration-300 sm:p-[25px_0_25px_20px] p-5 lg:max-w-[364px] w-full rounded-[10px] bg-greygradient border border-greyBorder">
                 <div className="flex xl:gap-6  items-center gap-5">
                   <img
                     src={obj.profile}

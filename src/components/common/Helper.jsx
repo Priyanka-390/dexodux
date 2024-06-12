@@ -23,7 +23,7 @@ export const LeverageCardsData = [
     graphImg: <GreenGraph />,
     value: "2,920.34",
     chg: "-3.72%",
-    vol: "$78.07M",
+    vol: "$20.07M",
   },
   {
     coin: <DogeUsd />,
@@ -32,7 +32,7 @@ export const LeverageCardsData = [
     graphImg: <GreenGraph />,
     value: "0.14441",
     chg: "-4.50%",
-    vol: "$78.07M",
+    vol: "$78.07K",
   },
   {
     coin: <Avax />,
@@ -41,7 +41,7 @@ export const LeverageCardsData = [
     graphImg: <PinkGraph />,
     value: "33.59",
     chg: "-1.33%",
-    vol: "$78.07M",
+    vol: "$78.07K",
   },
   {
     coin: <Link />,
@@ -50,7 +50,7 @@ export const LeverageCardsData = [
     graphImg: <GreenGraph />,
     value: "13.61",
     chg: "-5.58%",
-    vol: "$78.07M",
+    vol: "$78.07K",
   },
   {
     coin: <Bnb />,
@@ -59,7 +59,7 @@ export const LeverageCardsData = [
     graphImg: <PinkGraph />,
     value: "586.52",
     chg: "-4.48%",
-    vol: "$78.07M",
+    vol: "$78.07K",
   },
 ];
 export const TeamData = [

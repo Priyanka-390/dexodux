@@ -5,7 +5,7 @@ import { LeverageCardsData } from './common/Helper';
 
 const Leverage = () => {
   return (
-    <div className="lg:pt-32 md:pt-20 z-30 relative  pt-12 bg-cover bg-center overflow-x-clip bg-darkBlack bg-[url(./assets/images/webp/bgLeverage.webp)]">
+    <div className="lg:py-32 md:py-20 z-30 relative  py-12 bg-cover bg-center overflow-x-clip bg-darkBlack bg-[url(./assets/images/webp/bgLeverage.webp)]">
       <div className="w-[285px] md:block hidden h-[285px] bg-darkPink blur-[150px] z-0 rounded-full absolute bottom-[-20%] right-[-20%]"></div>
       <div className="container xl:pt-3 max-w-[1164px] lg:px-3 px-6 mx-auto relative z-20">
         <CommonHeading text="Leverage Trading" />
@@ -13,7 +13,7 @@ const Leverage = () => {
         <div className="flex flex-wrap flex-row -mx-3">
           {LeverageCardsData.map((obj, i) => (
             <div key={i} className="lg:w-1/3 sm:w-1/2 w-full sm:mb-6 mb-4 px-3">
-              <div className="bg-darkGrey hover:border-darkPink lg:max-w-[364px] lg:max-h-[148px] duration-300 border-lightGreyBorder rounded-[10px] p-5  border">
+              <div className="bg-darkGrey backdrop-blur-[30px] hover:border-darkPink lg:max-w-[364px] lg:max-h-[148px] duration-300 border-lightGreyBorder rounded-[10px] p-5  border">
                 <div className="flex justify-between">
                   <div className="mb-0">
                     <div className="gap-3 flex">

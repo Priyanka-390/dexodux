@@ -65,7 +65,7 @@ const Footer = () => {
                     <input
                       type="email"
                       placeholder="Your e-mail"
-                      className="placeholder:text-sm w-full sm:pl-3 pl-2 placeholder:w-full placeholder:text-white placeholder:opacity-70 placeholder:font-normal bg-transparent !rounded-[115px] text-white !outline-none "
+                      className="placeholder:text-sm w-full sm:pl-3 pl-2 placeholder:w-full placeholder:text-white opacity-70 text-sm placeholder:opacity-70 placeholder:font-normal bg-transparent !rounded-[115px] text-white !outline-none "
                     />
                     <button type="submit" className="text-sm after:bg-pinkGradient after:inset-0 w-full overflow-hidden inline hover:after:opacity-0 border border-transparent !leading-[100%] hover:border-white h-[44px] after:duration-300  after:absolute relative z-[1] after:z-[-1]  duration-300 sm:text-base text-white font-semibold sm:py-[12.5px] py-2 shadow-pinkShadow   rounded-[130px] ">
                       Subscribe

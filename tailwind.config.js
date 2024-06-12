@@ -11,8 +11,9 @@ module.exports = {
       },
       colors: {
         darkPink: '#D0215D',
-        lightPink:'#18070D',
+        lightPink:'#18070D', 
         darkBlack: '#040404',
+        blurPink:'#D0215D1A',
         lightBlack:'#111111',
         darkRed:'#FF0000',
         greyBorder: '#FFFFFF1A',
