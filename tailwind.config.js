@@ -18,7 +18,8 @@ module.exports = {
         greyBorder: '#FFFFFF1A',
         lightPurple: '#A020F0',
         darkGrey: '#FFFFFF0A',
-        lightGreyBorder: '#FFFFFF1F'
+        lightGreyBorder: '#FFFFFF1F',
+        inputColor:'#FFFFFF14'
       },
      
       lineHeight: {
@@ -28,7 +29,7 @@ module.exports = {
         md:'140%'
       },
       boxShadow: {
-        pinkShadow: '0px_8px_40px_0px_#D0215D66',
+        pinkShadow: '0px_8px_40px_0px_#D0215D66'
 
       },
       backgroundImage: {
