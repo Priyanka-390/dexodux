@@ -3,3 +3,17 @@
 *{
   font-family: "Syne", sans-serif;
 }
+::-webkit-scrollbar-track {
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #7B1F67 -15.63%, #D0215D 100%);
+  border-radius: 30px;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 4px;
+  background: #20092F;
+}
