@@ -50,6 +50,7 @@ const Team = () => {
                     <div className="flex items-center gap-3">
                       <a
                         rel="noopener noreferrer"
+                        className="hover:scale-110 duration-300"
                         href="https://x.com/i/flow/login"
                         target="blank"
                       >
@@ -57,6 +58,7 @@ const Team = () => {
                       </a>
                       <a
                         rel="noopener noreferrer"
+                        className="hover:scale-110 duration-300"
                         href="https://core.telegram.org/blackberry/login"
                         target="blank"
                       >
@@ -64,6 +66,7 @@ const Team = () => {
                       </a>
                       <a
                         rel="noopener noreferrer"
+                        className="hover:scale-110 duration-300"
                         target="blank"
                         href="https://github.com/topics/login"
                       >
