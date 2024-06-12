@@ -13,7 +13,7 @@ const Footer = () => {
                 <img src={footerLogo} alt="logo" />
               </a>
             </div>
-            <p className="mt-3 text-white lg:mx-0 sm:mx-auto lg:text-start sm:text-center text-start lg:max-w-[374px] opacity-90 lg:mb-[30px] mb-4 sm:text-base text-sm font-normal leading-md">
+            <p className="mt-3 text-white lg:mx-0 sm:mx-auto lg:text-start sm:text-center text-start lg:max-w-[374px] opacity-90 lg:mb-[30px] mb-4 sm:text-base text-sm font-normal !leading-md">
               Your gateway to gasless trading with stable fees, trading across
               multiple markets, copy trading, singles transactions for a
               CEX-like experience and competitive rankings.
@@ -37,14 +37,14 @@ const Footer = () => {
           <div className="lg:w-8/12 max-lg:pt-6 w-full px-3">
             <div className="flex flex-wrap flex-row -mx-3">
               <div className="sm:w-6/12 w-1/3 px-3 flex sm:justify-center">
-                <ul>
-                  <li className="text-white sm:mb-5 mb-3 opacity-90 sm:text-base text-sm font-semibold !leading-xxs">
+                <ul className="gap-3 sm:gap-[14px] flex flex-col ">
+                  <li className="text-white sm:mb-1.5 mb-1 opacity-90 sm:text-base text-sm font-semibold !leading-xxs">
                     Resources
                   </li>
                   {FooterLinkData.map((obj, i) => (
                     <li
                       key={i}
-                      className="sm:mb-[14px] mb-2 lg:text-start sm:text-center"
+                      className="lg:text-start sm:text-center"
                     >
                       <a
                         href={obj.to}
@@ -67,7 +67,7 @@ const Footer = () => {
                       placeholder="Your e-mail"
                       className="placeholder:text-sm w-full sm:pl-3 pl-2 placeholder:w-full placeholder:text-white placeholder:opacity-70 placeholder:font-normal bg-transparent !rounded-[115px] text-white !outline-none "
                     />
-                    <button type="submit" className="text-sm  hover:scale-110 duration-300 sm:text-base text-white font-semibold sm:py-[12.5px] py-2 shadow-pinkShadow sm:px-5 px-3 bg-pinkGradient rounded-[130px] ">
+                    <button type="submit" className="text-sm after:bg-pinkGradient after:inset-0 w-full overflow-hidden inline hover:after:opacity-0 border border-transparent hover:border-white h-[44px] after:duration-300  after:absolute relative z-[1] after:z-[-1]  duration-300 sm:text-base text-white font-semibold sm:py-[12.5px] py-2 shadow-pinkShadow   rounded-[130px] ">
                       Subscribe
                     </button>
                   </div>

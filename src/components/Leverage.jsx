@@ -33,7 +33,7 @@ const Leverage = () => {
                   </div>
                   <div className="mb-0">
                     <div className='flex justify-end'>{obj.graphImg}</div>
-                    <div className="flex md:mt-5 mt-3 mb-2 gap-4">
+                    <div className="flex md:mt-5 items-center mt-3 mb-2 gap-4">
                       <p className=" font-normal text-sm leading-[16.8px] text-white opacity-50">
                         CHG
                       </p>
@@ -41,7 +41,7 @@ const Leverage = () => {
                         {obj.chg}
                       </p>
                     </div>
-                    <div className="flex gap-2">
+                    <div className="flex items-center gap-2">
                       <p className=" font-normal text-sm leading-[16.8px] text-white opacity-50">
                         VOL
                       </p>
