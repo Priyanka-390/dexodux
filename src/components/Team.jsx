@@ -13,7 +13,7 @@ const Team = () => {
         alt="right"
         className="xl:top-0 sm:top-[-20%] top-[-10%] max-sm:w-[120px] right-0 absolute z-[-1]"
       />
-      <div className="bg-lightPurple lg:w-[285px] w-[150px] h-[150px] lg:h-[285px] rounded-full z-[-1] absolute left-[-14%] top-0 lg:top-[28%] blur-[150px]"></div>
+      <div className="bg-lightPurple lg:w-[285px] w-[150px] h-[150px] lg:h-[285px] rounded-full z-[-1] absolute left-[-18%] top-0 lg:top-[28%] blur-[150px]"></div>
       <div className="container xl:py-3 max-w-[1164px] lg:px-3 px-6 mx-auto">
         <div className="flex justify-center mb-[10px]">
           <span className="border-darkPink rounded-[150px] inline-block border px-5 py-[6px]">
